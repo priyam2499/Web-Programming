@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+body 
+{
+  background-image: url("py.png");
+  background-repeat:no-repeat;
+}
+div 
+{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  margin-left: 50px;
+  background-color:hsla(9, 100%, 64%, 0.5);
+  text-align:center;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=submit]
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=password]:focus {
+  background-color: lightblue;
+}
+h1 
+{
+  text-shadow: 2px 2px 5px red;
+  font-size:50px;
+  color:yellow;
+}
+h5
+{
+font-size:30px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">LET'S  EXPLORE</h1>
+<div>
+<form method="post" action="validate.php">
+<h5>ENTER USERNAME</h5>
+<input type="text" name="username" >
+<br><br>
+<h5>ENTER PASSWORD</h5>
+<input type="password" name="pwd">
+<br><br>
+<input type="submit" value="Login">
+<input type="submit" value="register" onClick="myfunction()">
+</form>
+</div>
+</body>
+</html>
